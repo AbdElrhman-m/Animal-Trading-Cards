@@ -12,6 +12,8 @@
     border: 2px solid #AAA;
     margin: auto;
     padding: 10px 15px;
+    box-shadow: 5px 10px #CCC;
+    border-radius: 25px;
 }
 
 h3 {
@@ -26,12 +28,14 @@ img {
     display: block;
     /* Uses spacing between animal’s name, image, and information. */
     margin: 15px auto 30px;
+    border-radius: 25px;
 }
 
 .container>div {
     /* Uses border around animal’s information. */
     border: 2px solid #c5c5c5;
     padding: 10px;
+    border-radius: 25px;
 }
 
 p:first-child {
