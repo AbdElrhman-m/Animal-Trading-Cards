@@ -1,1 +1,51 @@
 /* add your CSS here */
+
+* {
+    color: rgb(28, 38, 47);
+    font-family: "Times New Roman", sans-serif;
+}
+
+.container {
+    width: 310px;
+    height: 580px;
+    /* Uses border around animal’s name, image, and information (interesting fact, list items, and description). */
+    border: 2px solid #AAA;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+h3 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    margin: 5px;
+    text-align: center;
+}
+
+img {
+    /*Card width should be fixed and include the spacing around the image (Since image is 300px wide, card should be 300px + spacing on either side. Card should not expand with the browser window).*/
+    display: block;
+    /* Uses spacing between animal’s name, image, and information. */
+    margin: 15px auto 30px;
+}
+
+.container>div {
+    /* Uses border around animal’s information. */
+    border: 2px solid #c5c5c5;
+    padding: 10px;
+}
+
+p:first-child {
+    /*The text is italicized for the animal’s interesting fact.*/
+    font-style: italic;
+}
+
+ul li {
+    /*The dots are removed from the animal's list items.*/
+    list-style: none;
+}
+
+ul li>span {
+    /* The labels are bolded for the animal’s list items. */
+    font-weight: bold;
+    text-transform: capitalize;
+}
